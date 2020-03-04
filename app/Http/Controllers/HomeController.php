@@ -24,7 +24,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        $products=Product::has('prices')->limited()->orderBy('id','desc')->get();
+        $products=Product::has('prices')->orderBy('id','desc')->paginate(3);
         return view('welcome',['products'=>$products]);
     }
 }
