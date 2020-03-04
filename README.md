@@ -1,5 +1,5 @@
-Сколонуйте репозиторій.<br> (git clone https://github.com/Nazarii1996/COI_TEST_LARAVEL.git)
-cd COI_TEST_LARAVEL
+Сколонуйте репозиторій.<br> (git clone https://github.com/Nazarii1996/COI_TEST_LARAVEL.git)<br>
+cd COI_TEST_LARAVEL<br>
 Настройте .env файл.<br>
 Запустіть наступні команди:<br>
 composer install<br>
